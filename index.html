@@ -9,46 +9,138 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"></head>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div>
-                <img src="img/logo_argentina-programa.jpg" width="40px" height="40px">
-            </div>
-            <a class="navbar-brand" href="#">Argentina Programa</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
+    <header class="barra_navegacion bg-dark">
+        <div class="barra_navegacion_links">
+            <ul class="nav">
+                <div>
+                    <img src="img/logo_argentina-programa.jpg" width="40px" height="40px">
+                </div>
+                <a class="nav-link text-light" href="#">Argentina Programa</a>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>    
+        <div class="barra_navegacion_login">
             <form class="form-inline my-2 my-lg-0 justify-content-md-end" >
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
             </form>
-        </nav>
+        </div>
     </header>
     <main >
-        <div>
-            <img src="img/imagen_programacion_2.jpg" alt="logo_argentina-programa" width="100%" height="45%">
+        <div class="portada">
+            PORTADA
+            <!--<img src="img/imagen_programacion_2.jpg" alt="logo_argentina-programa" width="100%" height="45%">-->
         </div>
-        <br>
-        <h1>MI PORTFOLIO</h1>
-        <p class="fs-5 col-md-8">Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML.</p>
+        <div class="acerca_de">
+            <div class="imagen_personal">FOTO
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="datos_personales">
+                <h4>PABLO DAMIAN LUPO</h4>
+                <h4>Full Stack Developer Jr</h4>
+                <p class="fs-5 col-md-8">Resumen Profesional personal resumido, titulo, estudios, trabajo.</p>
+            </div>  
+            <div class="logo_estudio_curso">
+                LOGO
+            </div>          
+        </div>
+        <div>
+            EXPERIENCIA
+        </div>
+        <div class="experiencia">
+            <div class="logo_experiencia">logo
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="experiencia_info">
+                <h4>EMPRESA</h4>
+                <p class="fs-5 col-md-8">Info de la empresa</p>
+            </div>            
+        </div>
+        <div class="experiencia">
+            <div class="logo_experiencia">logo 2
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="experiencia_info">
+                <h4>EMPRESA2</h4>
+                <p class="fs-5 col-md-8">Info de la empresa 2</p>
+            </div>            
+        </div>
+        <div>
+            EDUCACION
+        </div>
+        <div class="educacion">
+            <div class="logo_educacion">logo
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="educacion_info">
+                <h4>CASA DE ESTUDIOS</h4>
+                <p class="fs-5 col-md-8">Info de la CASA DE ESTUDIOS</p>
+            </div>            
+        </div>
+        <div class="educacion">
+            <div class="logo_educacion">logo 2
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="educacion_info">
+                <h4>CASA DE ESTUDIOS 2</h4>
+                <p class="fs-5 col-md-8">Info de la CASA DE ESTUDIOS</p>
+            </div>            
+        </div>
+        <div>
+            HABILIDADES TECNICAS
+        </div>
+        <div class="habilidades_tecnicas">
+            <div class="habilidad_item">1
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="habilidad_item">2
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="habilidad_item">3
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="habilidad_item">4
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="habilidad_item">5
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>
+            <div class="habilidad_item">6
+                <!--<img src="img/foto_personal.jpg">-->
+            </div>         
+ 
+        </div>  
+        <div>
+            PROYECTOS
+        </div>
+        <div class="proyecto">
+            <div class="proyecto_info">
+                <h4>Proyecto_1</h4>
+                <p class="fs-5 col-md-8">Info del proyecto</p>
+            </div>            
+        </div>
+        <div class="proyecto">
+            <div class="proyecto_info">
+                <h4>Proyecto_2</h4>
+                <p class="fs-5 col-md-8">Info del proyecto</p>
+            </div>            
+        </div>  
     </main>
+    <br>
     <footer class="col-mb-1 bg-dark">
-        <p>Derechos reservado @2022</p>
+        <div>
+            <p>Derechos reservado @2022</p>
+        </div>
     </footer>
 
 </body>
