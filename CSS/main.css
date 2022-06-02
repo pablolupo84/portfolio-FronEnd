@@ -41,7 +41,7 @@ footer{
 
 .acerca_de{
     display:flex; 
-    height: 15%;
+    /*height: 15%;*/
     flex-flow:row nowrap;
     align-content:flex-start;
 }
@@ -72,7 +72,7 @@ footer{
 
 .experiencia{
     display:flex;
-    height: 25%;
+    /*height: 15%;*/
     flex-flow:row nowrap;
     align-content:flex-start;
 }
@@ -91,7 +91,7 @@ footer{
 
 .educacion{
     display:flex;
-    height: 25%;
+    /*height: 15%;*/
     flex-flow:row nowrap;
     align-content:flex-start;
 }
@@ -109,11 +109,11 @@ footer{
 }
 
 .habilidades_tecnicas{
-    height: 150px;
+    /*height: 150px;*/
     display:flex;
-    flex-flow:row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+    align-items: center;
     
 }
 
@@ -124,7 +124,7 @@ footer{
 
 .proyecto{
     display:flex;
-    height: 25%;
+    /*height: 15%;*/
     flex-flow:row nowrap;
     align-content:flex-start;
 }
