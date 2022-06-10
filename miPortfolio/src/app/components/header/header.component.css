@@ -1,0 +1,42 @@
+.miHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: darkslategray; 
+}
+
+div{
+    padding: 0.1em;
+}
+
+.logo_redes{
+    display: flex;
+    /*background-color: blue;*/
+}
+
+.logo{
+    display: flex;
+    /*background-color: brown;*/
+}
+
+/*
+.contenidoREDES{  
+    background-color: yellowgreen;
+}*/
+
+.contenidoREDES img{
+    width: 20px;
+    padding: 0.6em;
+    /*background-color: aqua;*/
+    margin-top: 10px;
+}
+
+.login{ 
+    display: flex;   
+}
+
+.miBoton{
+    display: flex;
+    align-items: center; 
+}
